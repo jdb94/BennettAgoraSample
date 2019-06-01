@@ -1,0 +1,52 @@
+/* CSS based off asset requierements */ 
+
+#latoFont1 {
+	font-family:"Lato", sans-serif;
+}
+
+#arialFont2 {
+	font-family: arial, sans-serif;
+}
+
+.button{
+	background-color: #005282; /* Medium Blue */
+  	border: none;
+  	color: white;
+  	padding: 20px 20%;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	border-radius: 8px;
+
+}
+
+.imageCenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.box{
+	display: flex;
+	align-items: center;
+}
+
+.separator1 {
+	background-color: lightgrey;
+	margin-top: 0%;
+        padding: 0%;	
+}
+
+.separator2 {
+	margin-top: 0%;
+        padding: 0%;	
+}
+
+*{
+        box-sizing: border-box;
+}
+
