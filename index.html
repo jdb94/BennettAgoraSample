@@ -2,12 +2,13 @@
 	<title>Agora Bennett Submission</title>
 	<link rel="stylesheet" type="text/css" href = "layout.css" title = "standard">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
 	</head>
 <body>
 
 
 <!--First "Panel" of info  -->
-<div align="center" style="padding-bottom: 5%;">
+<div style="padding-bottom: 5%;" class="arialFont">
 <p> Best-Selling Author and Gold Expert 
 Jim Rickards' Presents...</p>
 <hr style="color: #005282; width: 100%;"> 
@@ -20,7 +21,7 @@ to Help Me Reveal... Live on Camera... What This
 Coming Gold Mega-Catalyst Is And How You Could Make 
 as Much as $101,000 in Profit."</h2>
  
-<input type="checkbox" name="newsletter" value"" style="margin-right: 20%;">I would like to receive a free news letter<br><br> 
+<input type="checkbox" id="checkbox1" name="checkbox1"  style="margin-right: 20%;">I would like to receive a free news letter<br><br> 
 
 <button type= "button" class="button" onClick="" > Register for this FREE<br> live Webinar Here! </button>  
 </div>
@@ -30,24 +31,27 @@ as Much as $101,000 in Profit."</h2>
 
 
 <!-- Calender Panel-->
-<div style="background-color: #71a1be;">
+<div style="background-color: #71a1be;" class="card arialFont">
 <img src="https://d13p2xj50zkyqm.cloudfront.net/promos/AF/RGS/RGS_Hotlist_0617/RGS_Hotlist_0617_Calendar.png" class="imageCenter">
 <br>
-<h1 style="text-align: center; color:white;">May 29th</h1>
-<h5 style="text-align: center; color: white;">at 5:00 PM EDT</h5>
+<h1 style="color:white;">May 29th</h1>
+<h5 style="color: white;">at 5:00 PM EDT</h5>
 </div>
-
-<div style="background-color: #71a1be; padding: 20% 20%;">
-<h1 style="text-align: center; color:white;">TIME LEFT UNTIL THE<br>WEBINAR STARTS...</h1>
-</div>
-
-
-
-
-
 
 <!-- Countdown Panel -->
-<div style="background-color: #05263a; text-align:center;" class="separator2">
+<div style="background-color: #71a1be; padding: 20% 20%;" class="card arialFont">
+<h2 style="color:white;">TIME LEFT UNTIL THE<br>WEBINAR STARTS...</h2>
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- Speaker Panel -->
+<div style="background-color: #05263a;" class="card arialFont">
 <img src="https://d13p2xj50zkyqm.cloudfront.net/promos/AF/RGS/RGS_Hotlist_0617/RGS_Hotlist_0617_JimRickards.png" alt="James G. Rickards" class="imageCenter">
 <h6 style="color: white;">Presented by best-selling author and gold expert...</h6>
 <h2 style="color: white;"> JAMES G. RICKARDS </h2>
@@ -56,9 +60,12 @@ as Much as $101,000 in Profit."</h2>
 
 
 
-<div style="background-color: #71a1be;" class="separator2">
-<h5 style="text-align:center;">I'm going to show you...</h5>
 
+
+
+<!-- Checklist Panel-->
+<div style="background-color: #71a1be;" class="card arialFont">
+<h5>I'm going to show you...</h5>
 <div class="box">
   <img src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/AF/RGS/RGS_Hotlist_0617/RGS_Hotlist_0617_CheckmarkBox.png" width="42" height="42">
   <span style="">How a class of "off-limit" gold stocks could become fair game and shoot up in price...</span>
@@ -96,30 +103,38 @@ as Much as $101,000 in Profit."</h2>
   <span style="">Why we may see confirmation that gold will make a run at $2,000 sooner than anyone thinks...</span>
 </div>
 <br>
-
-
-</div>
-</div>
-
-
-<div class="separator2" >
 </div>
 
 
 
 
-<!-- 
 
- 
-WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP
+<div style="background-color: #f58c99;" class="card arialFont">
+<div class="box">
+<img src="https://d13p2xj50zkyqm.cloudfront.net/promos/AF/RGS/RGS_Hotlist_0617/RGS_Hotlist_0617_Warning.png" width="60" height="60">
+<h2 style="color:white;">WARNING: SPACE IS LIMITED & THESE LIVE TRAININGS ALWAYS FILL UP</h2>
+</div>
+</div>
 
-Claim your spot below before it's too late!
 
- I would like to receive a free newsletter
- 
-YES! Reserve My Spot Now! >> 
 
--->
+
+
+
+<div style="background-color: #05263a;" class="card arialFont trianglebox">
+<h2 style="color:white;">Claim your spot below before it's too late!</h2>
+</div>
+
+
+
+<br><br>
+<div class="card" style="padding-bottom: 10%;">
+<input type="checkbox" id="checkbox2" name="newsletter2" style="margin-right: 20%;">I would like to receive a free news letter<br><br>
+
+<button type= "button" class="button" onClick="" > YES! Reserve My Spot Now! >> </button>
+</div>
+
+<!--  -->
 
 </body>
 </html>
